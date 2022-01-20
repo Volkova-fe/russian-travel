@@ -1,0 +1,29 @@
+.footer__menu {
+  padding: 70px 16px 24px 16px;
+  min-height: 310px;
+  display: grid;
+  align-content: space-between;
+}
+
+@media screen and (min-width: 767px) {
+  .footer__menu {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 62px;
+    min-height: 18px;
+    padding: 86px 24px 24px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .footer__menu {
+    gap: 277px;
+    padding: 92px 48px 24px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .footer__menu {
+    gap: 533px;
+  }
+}

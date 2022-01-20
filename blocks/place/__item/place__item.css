@@ -1,0 +1,32 @@
+.place__item {
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 767px) {
+  .place__item {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    column-gap: 37px;
+    row-gap: 48px;
+    padding-bottom: 77px;
+    align-items: end
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .place__item {
+    padding-bottom: 80px;
+    grid-template-columns: 428px 1fr;
+    column-gap: 32px;
+    row-gap: 48px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .place__item {
+    grid-template-columns: 472px 1fr;
+    column-gap: 45px;
+    row-gap: 54px;
+    padding-bottom: 90px;
+  }
+}

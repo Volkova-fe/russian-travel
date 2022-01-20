@@ -1,0 +1,14 @@
+.header__link {
+  display: flex;
+  justify-content: space-between;
+  min-width: 62px;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 767px) {
+  .header__link {
+    min-width: 78px;
+    padding-top: 18px;
+    padding-left: 1px;
+  }
+}

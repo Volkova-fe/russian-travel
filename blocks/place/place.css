@@ -1,0 +1,31 @@
+.place {
+  list-style: none;
+  margin: 0;
+  padding: 64px 0 16px;
+}
+
+@media screen and (min-width: 767px) {
+  .place {
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 93.75%;
+    padding: 88px 0 18px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .place {
+    margin-left: 48px;
+    margin-right: 48px;
+    width: 89%;
+    padding: 92px 0 12px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .place {
+    margin-left: 148px;
+    margin-right: 148px;
+    width: 76.875%;
+  }
+}
