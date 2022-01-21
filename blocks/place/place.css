@@ -8,7 +8,7 @@
   .place {
     margin-left: 24px;
     margin-right: 24px;
-    width: 93.75%;
+    max-width: 93.75%;
     padding: 88px 0 18px;
   }
 }
@@ -17,7 +17,7 @@
   .place {
     margin-left: 48px;
     margin-right: 48px;
-    width: 89%;
+    max-width: 89%;
     padding: 92px 0 12px;
   }
 }
@@ -26,6 +26,6 @@
   .place {
     margin-left: 148px;
     margin-right: 148px;
-    width: 76.875%;
+    max-width: 76.875%;
   }
 }

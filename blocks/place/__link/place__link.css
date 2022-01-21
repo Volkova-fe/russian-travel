@@ -1,26 +1,15 @@
 .place__link {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
   color: #ffffff;
   margin-top: 12px;
   display: block;
-  transform: color 0.5s easy;
+  transform: opacity 0.5s easy;
+  display: inline-block;
 }
 
 .place__link:hover {
-  color: #a4a4a4;
-}
-
-@media screen and (min-width: 1023px) {
-  .place__link {
-    font-size: 17px;
-  }
-}
-
-@media screen and (min-width: 1279px) {
-  .place__link {
-    font-size: 18px;
-  }
+  opacity: 0.8;
 }

@@ -1,5 +1,5 @@
 .photo-grid {
-  width: 90%;
+  max-width: 90%;
   padding: 64px 0 0px;
   margin-left: 16px;
   margin-right: 16px;
@@ -14,7 +14,7 @@
     margin-left: 24px;
     margin-right: 24px;
     gap: 16px;
-    width: 93.75%;
+    max-width: 93.75%;
   }
 }
 
@@ -24,7 +24,7 @@
     margin-left: 48px;
     margin-right: 48px;
     gap: 14px;
-    width: 90.625%;
+    max-width: 90.625%;
   }
 }
 
@@ -32,6 +32,6 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
-    width: 92.6%;
+    max-width: 92.6%;
   }
 }

@@ -7,6 +7,7 @@
   text-align: center;
   position: relative;
   z-index: 11;
+  max-width: 90%;
 }
 
 @media screen and (min-width: 767px) {
@@ -14,20 +15,20 @@
     font-size: 72px;
     line-height: 76px;
     padding-top: 115px;
-    width: 72.91%;
+    max-width: 72.91%;
   }
 }
 
 @media screen and (min-width: 1023px) {
   .cover__title {
     padding-top: 179px;
-    width: 54%;
+    max-width: 54%;
   }
 }
 
 @media screen and (min-width: 1279px) {
   .cover__title {
     padding-top: 245px;
-    width: 43.75%;
+    max-width: 43.75%;
   }
 }

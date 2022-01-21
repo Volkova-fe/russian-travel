@@ -9,7 +9,7 @@
     column-gap: 37px;
     row-gap: 48px;
     padding-bottom: 77px;
-    align-items: end
+    align-items: end;
   }
 }
 
@@ -24,7 +24,7 @@
 
 @media screen and (min-width: 1279px) {
   .place__item {
-    grid-template-columns: 472px 1fr;
+    grid-template-columns: 472px 484px;
     column-gap: 45px;
     row-gap: 54px;
     padding-bottom: 90px;

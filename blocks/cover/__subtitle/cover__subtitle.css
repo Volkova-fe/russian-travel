@@ -11,21 +11,20 @@
 @media screen and (min-width: 767px) {
   .cover__subtitle {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 22px;
     padding-top: 32px;
-    width: 46%;
+    max-width: 46%;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .cover__subtitle {
-    width: 34%;
-    line-height: 24px;
+    max-width: 34%;
   }
 }
 
 @media screen and (min-width: 1279px) {
   .cover__subtitle {
-    width: 28.125%;
+    max-width: 28.125%;
   }
 }
