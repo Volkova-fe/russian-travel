@@ -6,7 +6,8 @@
   color: #ffffff;
   margin-top: 12px;
   display: block;
-  transform: opacity 0.5s easy;
+  transform: opacity 0.5s;
+  -webkit-transform: opacity 0.5s;
   display: inline-block;
 }
 
