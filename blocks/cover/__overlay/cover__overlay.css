@@ -7,7 +7,7 @@
   content: "";
   background-color: rgba(42, 44, 47, 0.3);
   z-index: 1;
-  transform: background-color 0.9s easy;
+  transition: background-color 0.5s easy;
 }
 
 .cover__overlay:hover {
