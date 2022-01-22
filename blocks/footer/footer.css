@@ -1,12 +1,12 @@
-.footer__menu {
-  padding: 70px 16px 24px 16px;
-  min-height: 310px;
+.footer {
   display: grid;
   align-content: space-between;
+  padding: 70px 16px 24px 16px;
+  min-height: 310px;
 }
 
 @media screen and (min-width: 767px) {
-  .footer__menu {
+  .footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 62px;
     min-height: 18px;
@@ -16,14 +16,14 @@
 }
 
 @media screen and (min-width: 1023px) {
-  .footer__menu {
+  .footer {
     gap: 277px;
     padding: 92px 48px 24px;
   }
 }
 
 @media screen and (min-width: 1279px) {
-  .footer__menu {
+  .footer {
     gap: 533px;
   }
 }

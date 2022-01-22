@@ -8,13 +8,7 @@
 
 @media screen and (min-width: 767px) {
   .footer__author {
-    font-size: 14px;
     line-height: 16px;
-  }
-}
-
-@media screen and (min-width: 1023px) {
-  .footer__author {
     text-align: right;
   }
 }
