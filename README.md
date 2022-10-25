@@ -11,4 +11,4 @@ ___
 * CSS ( _flex_ и _grid_, медиазапросы)
 ___
 
-* [Ссылка на страницу проекта github](https://volkova-fe.github.io/russian-travel/)
+* [Демоверсия страницы](https://volkova-fe.github.io/russian-travel/)
